@@ -11,3 +11,8 @@
     background-color: black;
     border-color: black;
 }
+@media  (max-width:'570px') {
+    .Carousel{
+        height: 1px;
+    }
+}

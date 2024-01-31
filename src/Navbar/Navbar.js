@@ -6,18 +6,20 @@ import './Navbar.css'
  function Navbar() {
   
   return (
-    <NavbarBs sticky='top' className='bg-white shadow-sm '>
-     <Container>
-        <h4 className='d-flex align-items-center mt-1'>Ibrahim</h4>
-        <Nav className='mr-auto'>
-            <Nav.Link className='effect' as={Link} to='/'>Home</Nav.Link> 
-            <Nav.Link className='effect' as={Link} to='/play'>Game</Nav.Link>
-            <Nav.Link className='effect' as={Link} to='/Resume'>Resume</Nav.Link>
+         <NavbarBs sticky='top' className=' shadow-sm ' style={{backgroundColor:'black',color:'white'}}>
+     <Container  >
+        <h4 className='d-flex align-items-center mt-1' >Ibrahim</h4>
+        <Nav className='mr-auto' >
+            <Nav.Link className='effect'style={{color:'white'}} as={Link} to='/hello'>Home</Nav.Link> 
+            <Nav.Link className='effect'style={{color:'white'}} as={Link} to='/play'>Game</Nav.Link>
+            <Nav.Link className='effect'style={{color:'white'}} as={Link} to='/Resume'>Resume</Nav.Link>
            
         </Nav>
      
      </Container>
     </NavbarBs>
+   
+ 
   )
 }
 export default Navbar

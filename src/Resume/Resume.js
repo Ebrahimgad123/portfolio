@@ -12,7 +12,7 @@ const Resume = () => {
     variant="primary"
     href={pdf}
     target="_blank"
-    style={{ maxWidth: "250px" ,marginLeft:'70%' ,marginTop:'5%'}}
+    style={{ maxWidth: "250px" ,marginLeft:'50%' ,marginTop:'5%'}}
   >
     <AiOutlineDownload />
     &nbsp;Download CV

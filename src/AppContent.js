@@ -9,14 +9,19 @@ const AppContent = () => {
   return (
     <div>
       <BrowserRouter>
-           <Navbar/>
+     
+       <Navbar />
+    
+        
+      
+          
            <Routes>
-            <Route path='/'element={<Home/>}/>
+            <Route path='/hello' element={<Home/>}/>
             <Route path='/play'element={<About/>}/>
             <Route path='/resume'element={<Resume/>}/>
          
            </Routes>
-           <Home/>
+      
       </BrowserRouter>
 
     </div>

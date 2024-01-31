@@ -1,0 +1,12 @@
+.background{
+    background-image: url("../9531.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+@media (max-width: 576px) {
+    .background{
+        background-size: 500px 700px;
+        background-repeat:no-repeat;
+      
+    }
+  }

@@ -3,7 +3,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import SplashScreen from './SplashScreen';
 import AppContent from './AppContent';
-import Home from './Home/Home';
+
 const App = () => {
   const [showSplash, setShowSplash] = useState(true);
 
@@ -14,7 +14,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div >
       {showSplash ? <SplashScreen /> : <AppContent /> 
       
       }

@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import {  Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './Contact.css'
-import { FaGithub, FaLinkedin ,FaFacebook} from 'react-icons/fa';
-import { Link, Router } from 'react-router-dom';
 const ContactForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -21,14 +19,14 @@ const ContactForm = () => {
   };
 
   return (
-  
+  <div style={{backgroundColor:'black',marginTop:'-24px'}}>
     <Container>
-        <h1 className='mt-4 mb-5 text-muted effects'>Contact Me</h1>
+        <h1 className='mt-4 mb-5 'style={{color:'white'}}>Contact Me</h1>
         <Row xs={1} xl={2}>
      <Col>
      <form onSubmit={handleSubmit}>
       <div className="mb-3">
-        <label htmlFor="name" className="form-label">Name</label>
+        <label htmlFor="name"style={{color:'white'}} className="form-label">Name</label>
         <input
           type="text"
           className="form-control"
@@ -38,7 +36,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="email" className="form-label">Email</label>
+        <label htmlFor="email" className="form-label"style={{color:'white'}}>Email</label>
         <input
           type="email"
           className="form-control"
@@ -48,7 +46,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="subject" className="form-label">Subject</label>
+        <label htmlFor="subject" className="form-label"style={{color:'white'}}>Subject</label>
         <input
           type="text"
           className="form-control"
@@ -58,7 +56,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="message" className="form-label">Messsage</label>
+        <label htmlFor="message" className="form-label"style={{color:'white'}}>Messsage</label>
         <textarea
           className="form-control"
           id="message"
@@ -67,13 +65,13 @@ const ContactForm = () => {
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
       </div>
-      <button type="submit" className="btn btn-primary">send</button>
+      <button type="submit" className="btn "style={{color:'white',backgroundColor:'red',marginBottom:'30px'}}>send</button>
       {status && <p className="mt-3">{status}</p>}
     </form>
      </Col>
      <Col>
-     <h1 className='mb-5 effecty text-muted'>Get in Touch</h1>
-     <p className='fs-2 text-dark'>Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.
+     <h1 className='mb-5 effecty 'style={{color:'white'}}>Get in Touch</h1>
+     <p className='fs-2 'style={{color:'white'}}>Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.
 Simply fill the from and send me an email.</p>
  <Navbar className='text-bg-muted' >
  <Nav className='bg-muted' >
@@ -84,29 +82,17 @@ Simply fill the from and send me an email.</p>
             </a>
        
             <a href="https://www.linkedin.com/login/ar"target='_blank' style={{width:'20px',marginLeft:'40px'}}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-                
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>  
             </a>
-          
-        
             <a href="https://www.facebook.com/ibrahim.gad.5623/about"target='_blank' style={{width:'20px',marginLeft:'40px'}}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
             </a>
-       
-          
-    
-          
-          
       </Nav>
  </Navbar>
-     
-
-      {/* ... */}
-    
      </Col>
    </Row> 
     </Container>
-    
+    </div>
   );
 };
 

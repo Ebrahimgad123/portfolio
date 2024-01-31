@@ -5,18 +5,30 @@ import Skills from '../Skills/Skills'
 import Projects from '../CardProjects/Projects'
 import HTMLChart from '../Charts/Charts'
 import ContactForm from '../Contact/Contact'
+import './Home.css'
 
+import Start from '../Start/Start'
 
 const Home = () => {
   return (
    
-       <div style={{width:'100%'}}>
-      <Carousel/>
+   
+          
+         
+         <div className='background' style={{height:'100vh'} }>
+          <div >
+            <Start />
+          </div>
+        
+         
+          
+           <Carousel/>
       <Hello/>
       <Skills/>
       <Projects/>
        <HTMLChart/>
        <ContactForm/>
+  
     </div>
  
 

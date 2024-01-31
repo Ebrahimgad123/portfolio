@@ -13,13 +13,14 @@ import img10 from '../download (12).png';
 
 const Skills = () => {
   return (
-    <div className='container'>
-      <h1 style={{ marginBottom: '30px' }}>Skills</h1>
+    <div style={{backgroundColor:"black"}}>
+       <div className='container' >
+      <h1 style={{ marginBottom: '30px',color:'#ff6f61',textAlign:'center' }}>Skills</h1>
       <Row xs={2} xl={4}>
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px' ,borderRadius:'30px'}}
               src={imge}
               alt='hvhv'
             />
@@ -28,7 +29,7 @@ const Skills = () => {
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px',borderRadius:'30px' }}
               src={img2}
               alt='hvhv'
             />
@@ -37,7 +38,7 @@ const Skills = () => {
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px',borderRadius:'30px' }}
               src={img3}
               alt='hvhv'
             />
@@ -46,7 +47,7 @@ const Skills = () => {
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px',borderRadius:'30px' }}
               src={img4}
               alt='hvhv'
             />
@@ -55,7 +56,7 @@ const Skills = () => {
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px',borderRadius:'30px' }}
               src={img5}
               alt='hvhv'
             />
@@ -64,7 +65,7 @@ const Skills = () => {
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px',borderRadius:'30px' }}
               src={img6}
               alt='hvhv'
             />
@@ -73,7 +74,7 @@ const Skills = () => {
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px',borderRadius:'30px' }}
               src={img7}
               alt='hvhv'
             />
@@ -82,7 +83,7 @@ const Skills = () => {
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px',borderRadius:'30px' }}
               src={img8}
               alt='hvhv'
             />
@@ -91,7 +92,7 @@ const Skills = () => {
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px',borderRadius:'30px' }}
               src={img9}
               alt='hvhv'
             />
@@ -100,7 +101,7 @@ const Skills = () => {
         <Col className='text-center'>
           <div>
             <img
-              style={{ width: '150px', height: '150px', marginBottom: '30px' }}
+              style={{ width: '150px', height: '150px', marginBottom: '30px',borderRadius:'30px' }}
               src={img10}
               alt='hvhv'
             />
@@ -108,6 +109,8 @@ const Skills = () => {
         </Col>
       </Row>
     </div>
+    </div>
+   
   );
 }
 
