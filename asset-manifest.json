@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hello/static/css/main.9b0c70e7.css",
+    "main.js": "/hello/static/js/main.90917dfd.js",
+    "static/media/1.png": "/hello/static/media/1.e9ea1ef147afbe4c753a.png",
+    "static/media/responsive-image.jpg": "/hello/static/media/responsive-image.72ec8014ac5272e0ac49.jpg",
+    "static/media/blue professional modern CV resume.pdf": "/hello/static/media/blue professional modern CV resume.10ffbe822da8c5244b01.pdf",
+    "static/media/learning-image-large.jpg": "/hello/static/media/learning-image-large.1b484b0467ffc2246b6e.jpg",
+    "static/media/react-logo-large.jpg": "/hello/static/media/react-logo-large.19794e575267e7e8b0a7.jpg",
+    "static/media/66.png": "/hello/static/media/66.7aaa4fe977a2a9d277ce.png",
+    "static/media/3.jpg": "/hello/static/media/3.35ba88536961a6c160af.jpg",
+    "index.html": "/hello/index.html",
+    "main.9b0c70e7.css.map": "/hello/static/css/main.9b0c70e7.css.map",
+    "main.90917dfd.js.map": "/hello/static/js/main.90917dfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b0c70e7.css",
+    "static/js/main.90917dfd.js"
+  ]
+}
